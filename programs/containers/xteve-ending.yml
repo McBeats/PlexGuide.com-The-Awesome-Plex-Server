@@ -16,5 +16,7 @@
 ############################################################# (KEY START)
 ---
 - name: Notify User
-  pause:
-    prompt: "\nXteve GUI Access - http://{{ipaddress.stdout}}:{{extport}}/web | http://{{domain.stdout}}:{{extport}}/web | http://{{pgrole}}.{{domain.stdout}}/web"
+  - debug: msg="Xteve GUI Access - http://{{ipaddress.stdout}}:{{extport}}/web | http://{{domain.stdout}}:{{extport}}/web | http://{{pgrole}}.{{domain.stdout}}/web"
+
+  - pause:
+      prompt: "\nView the GUI Access Information Above, then Press [ENTER]"
