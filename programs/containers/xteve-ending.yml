@@ -15,7 +15,6 @@
 #
 ############################################################# (KEY START)
 ---
-- name: Notify User
   - debug: msg="Xteve GUI Access - http://{{ipaddress.stdout}}:{{extport}}/web | http://{{domain.stdout}}:{{extport}}/web | http://{{pgrole}}.{{domain.stdout}}/web"
 
   - pause:
