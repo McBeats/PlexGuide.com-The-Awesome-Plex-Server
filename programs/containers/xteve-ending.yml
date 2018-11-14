@@ -19,3 +19,8 @@
 
   - pause:
       prompt: "\nView the GUI Access Information Above, then Press [ENTER]"
+
+  - debug: msg="Xteve Plex URL - http://{{pgrole}}:{{extport}} | Fallback (ip may change on restart): http://{{ipaddress.stdout}}:{{extport}}"
+
+  - pause:
+      prompt: "\nView the Xteve Plex Access Information Above, then Press [ENTER]"
