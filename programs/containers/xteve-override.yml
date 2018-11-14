@@ -23,7 +23,6 @@
     #cpu_shares: "{{cpu_shares}}"
     published_ports:
       - "{{ports.stdout}}{{extport}}:{{intport}}"
-      - "{{ports.stdout}}{{extport2}}:{{intport2}}"
     volumes: "{{default_volumes}}"
     env: "{{default_env}}"
     expose: "{{expose}}"
